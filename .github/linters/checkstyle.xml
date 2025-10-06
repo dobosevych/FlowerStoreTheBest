@@ -9,8 +9,6 @@
 
     <!-- Checks that property files contain the same keys. -->
     <module name="Translation"/>
-
-    <module name="SuppressionCommentFilter"/>
     
     <!-- Checks that no tab characters in the source code. -->
     <!-- Reports only first instance. -->
@@ -54,6 +52,9 @@
               PARAMETER_DEF,VARIABLE_DEF
           "/>
         </module>
+
+        <module name="SuppressionCommentFilter"/>
+
 
         <!-- =========================================================================== -->
         <!-- Block checks                                                                -->
